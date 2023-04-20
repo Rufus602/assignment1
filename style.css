@@ -1,0 +1,266 @@
+
+    
+    
+    .main {
+    flex-direction: column;
+    
+    }
+    .inp{
+        width: 80%;
+        margin-bottom: 20px;
+        height: 50px;
+         border-radius: 10px;
+     border: 1px solid #bbbaba;
+        background-color: #dbd9d9;
+    }
+    .inp::placeholder{
+      color: black;
+    }
+    #infr{
+      box-shadow: 0 0 10px 1px rgb(96, 96, 96);
+      padding: 40px;
+      margin-bottom: 30px;
+      border-radius: 15px;
+      border: none;
+      margin-bottom: 100px;
+      background-image: url(pictures/1641981104_36-adonius-club-p-cherno-belii-fon-dlya-prezentatsii-36.jpg);
+    }
+    .but{
+        text-align: center;
+        width: 45%;
+        border-radius: 10px;
+        border: none;
+        background-color: rgb(56, 56, 229);
+        height: 50px;
+        font-weight: bold;
+        color: white;
+    }
+    .main form{
+        align-items: center ;
+        text-align: center 
+        
+    }
+    body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        font-size: 16px;
+      }
+      
+      /* Header styles */
+      header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #333;
+        color: #FFF;
+        padding: 20px;
+      }
+      .logo {
+        font-size: 32px;
+        font-weight: bold;
+      }
+      .logo img{
+        height: 40px;
+      }
+      .logo a{
+        text-decoration: none;
+        color: #FFF;
+      }
+      .nav {
+        display: flex;
+        justify-content: flex-end;
+        list-style: none;
+      }
+      .nav li {
+        margin-left: 20px;
+      }
+      .nav a {
+        color: #FFF;
+        text-decoration: none;
+      }
+      
+      /* Banner styles */
+      .banner {
+        background-image: url(pictures/scale_1200.webp);
+        background-color: rgb(0, 0, 0);
+    opacity: 0.7;
+        background-size: cover;
+        background-position: center;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+      }
+      .banner h1 {
+        font-size: 48px;
+        font-weight: bold;
+        color: #ffffff;
+        margin-bottom: 20px;
+        text-shadow: 2px 2px #542424;
+      }
+      .banner p {
+        font-size: 24px;
+        color: #ffffff;
+        text-shadow: 2px 2px #542424;
+      }
+      
+      /* Main section styles */
+      .main {
+        display: flex;
+        justify-content: space-between;
+        margin: 50px;
+      }
+      .main h2 {
+        font-size: 36px;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 20px;
+      }
+      .main p {
+        font-size: 18px;
+        color: #666;
+        line-height: 1.5;
+        margin-bottom: 20px;
+      }
+      .main ul {
+            list-style: disc;
+            margin-left: 20px;
+            margin-bottom: 20px;
+          }
+          .main  li {
+            font-size: 16px;
+            color: #666;
+            line-height: 1.5;
+          }
+      .list{
+        display: flex;
+       
+        flex-direction: column;
+        align-items: center;
+       
+      }
+      .list li{
+        padding: 15px;
+      }
+      #list{
+        height: 100%;
+      }
+      #info{
+        width: 90%;
+        box-shadow: 0 0 10px 1px rgb(96, 96, 96);
+      padding: 40px;
+      margin-bottom: 30px;
+      border-radius: 15px;
+      border: none;
+      }
+      
+      .order-testing {
+        background-color: #EEE;
+        padding: 50px;
+        text-align: center;
+      }
+      .order-testing h2 {
+        font-size:36px;
+        font-weight: bold;
+        color: #333;
+        margin-bottom: 20px;
+        }
+        
+        .order-testing label {
+        display: block;
+        margin-bottom: 10px;
+        font-size: 16px;
+        color: #666;
+        }
+        
+        
+        /* Footer styles */
+        footer {
+        background-color: #4d4c4c;
+        padding: 20px;
+        text-align: center;
+        }
+        .footer-links {
+        margin-bottom: 20px;
+        }
+        .footer-links a {
+        color: #333;
+        text-decoration: none;
+        margin-right: 20px;
+        }
+        
+        /* Responsive styles */
+        
+        .main {
+        flex-direction: column;
+        display: flex;
+          align-items: center;
+  justify-content: center;
+        }
+        .row{
+          width: 90%;
+          margin-bottom: 100px;
+          margin-top: 100px;
+        }
+       
+        .order-testing {
+        padding: 20px;
+        }
+          /*about us*/
+          .map{
+            display: flex;
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+            margin: 50px;
+          }
+          .map iframe{
+            height: 600px;
+            width: 800px;
+
+          }
+          .map h2,p{ margin-right: 100px;}
+          .about{
+            width: 90%;
+            display: flex;
+            border-radius: 15px;
+            text-align: center;
+            flex-direction: column;
+            background-color: #ffffff;
+           margin-top: 100px ;
+           margin-bottom: 100px;
+           box-shadow: 0 0 10px 1px rgb(96, 96, 96);
+          }
+          #about1{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column; background-color: #f0eeee
+          }
+          
+
+
+      
+          .icon{
+            width: 50px;
+            height: auto;
+          }
+          .social{
+            text-decoration: none;
+            display: flex;
+            justify-content: flex-start;
+            margin-bottom: 10px;
+          }
+          h6, h4{
+            text-decoration: none;
+            display: flex;
+            justify-content: flex-start;
+            margin-bottom: 10px;
+          }
+          span{
+            color: black;
+            margin-left: 5px;
+          }
